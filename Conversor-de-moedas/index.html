@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .name {
+            font-size: 36px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="name">João Vitor</h1>
+        <h2>Conversor de Moedas</h2>
+        <div class="form-group">
+            <label for="amount">Quantidade:</label>
+            <input type="number" id="amount" placeholder="Insira aqui">
+        </div>
+        <div class="form-group">
+            <label for="from">De:</label>
+            <select id="from">
+                <option value="BRL">BRL</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+                <option value="CNY">CNY</option>
+                <option value="USD">USD</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="to">Para:</label>
+            <select id="to">
+                <option value="BRL">BRL</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+                <option value="CNY">CNY</option>
+                <option value="USD">USD</option>
+            </select>
+        </div>
+        <button onclick="convertCurrency()">Converter</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

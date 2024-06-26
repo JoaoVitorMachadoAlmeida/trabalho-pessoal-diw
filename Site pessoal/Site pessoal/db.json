@@ -1,0 +1,32 @@
+{
+    "suggestions": [
+        {
+            "id": 1,
+            "title": "Artigo 1",
+            "description": "Descrição do Artigo 1",
+            "coverImage": "https://linkparaimagem.com/imagem1.jpg",
+            "contentURL": "https://linkparaartigo.com/artigo1"
+        },
+        {
+            "id": 2,
+            "title": "Artigo 2",
+            "description": "Descrição do Artigo 2",
+            "coverImage": "https://linkparaimagem.com/imagem2.jpg",
+            "contentURL": "https://linkparaartigo.com/artigo2"
+        }
+    ],
+    "colleagues": [
+        {
+            "id": 1,
+            "photoURL": "https://linkparafoto.com/foto1.jpg",
+            "name": "Colega 1",
+            "profileURL": "https://github.com/colega1"
+        },
+        {
+            "id": 2,
+            "photoURL": "https://linkparafoto.com/foto2.jpg",
+            "name": "Colega 2",
+            "profileURL": "https://github.com/colega2"
+        }
+    ]
+}
